@@ -1,0 +1,13 @@
+{
+  "name": "Highlight Hub",
+  "description": "Transform your online reading into a personalized, visual journey with HighlightHub. Seamlessly highlight and save your favorite sentences from blog posts, articles, and web pages. Effortlessly capture the essence of each page, bookmarking not just the text but the context. Easily revisit your highlighted gems, complete with the source URL and a dynamic link that takes you directly to the exact location on the page. Share your insights with strikingly designed images, turning snippets into shareable works of art. Unleash the power of precision and creativity with HighlightHub—where every highlight becomes a masterpiece.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "author": "AbdulTech",
+  "action": {
+    "default_popup": "./popup/popup.html",
+    "default_icon": {
+      "16": "./images/icon16.png"
+    }
+  }
+}

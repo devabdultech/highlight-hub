@@ -1,0 +1,19 @@
+body {
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+#popup-content {
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+}

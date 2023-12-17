@@ -4,10 +4,16 @@
   "version": "1.0",
   "manifest_version": 3,
   "author": "AbdulTech",
-  "action": {
+  "browser_action": {
     "default_popup": "./popup/popup.html",
+    "default_title": "Highlight Hub",
     "default_icon": {
       "16": "./images/icon16.png"
     }
+  },
+  "permissions": ["activeTab", "storage", "scripting", "contextMenus"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
   }
 }
